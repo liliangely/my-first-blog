@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #FFFFCC;
+	text-align: justify;
+}
+
+p{
+	font-size: 1em;
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #FF9999;
+	color: #003333;
+    text-align: center;
+    margin: 30px;
+	padding: 10px;
+}
+
+nav{
+	font-family: Arial, Verdana, sans-serif;
+	color: #003333; 
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 8vw;
+	margin-right: 6vw;
+	float: right;
+}
+
+header{
+	font-family: Arial, Verdana, sans-serif;
+	color: #003333;
+	font-weight: bold;
+	font-style: italic; 
+	text-align: center;
+	font-size: 2em;
+	margin-top: 10vw;
+}
+
+table{
+	border-color: #FF9999;
+	background-image: url('robots.jpg');
+}
+
+img{
+	float: left;
+}
+
+aside{
+	margin-left: 64vw;
+}
+
+section{
+	font-size: 1em;
+	font-family: Arial, Verdana, sans-serif;
+	color: #003333;
+    text-align: center;
+	clear: both;
+}
+
+footer{
+	font-family: Arial, Verdana, sans-serif;
+	color: #003333;
+	font-weight: bold;
+	font-style: italic; 
+	text-align: center;
+	clear: both;
+	margin-top: 10vw;
+}
+
+/* link w stanie "spoczynku" ma być niebieski z podkreśleniem */
+a:link {
+    color: blue;
+    text-decoration: underline;
+}
+ 
+/* link odwiedzony ma być czerwony */
+a:visited {
+    color: red;
+}
+ 
+/* link nad którym jest kursor myszy ma być różowy z ciemnym tłem */
+a:hover {
+    color: pink;
+    background-color: #003333;
+}
+ 
+/* link który jest klikany ma być niebieski bez tła */
+a:active {
+    color: #ADD8E6;
+    background-color: transparent;
+}
